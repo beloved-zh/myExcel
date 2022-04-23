@@ -1,0 +1,58 @@
+/* 去除默认样式 */
+ul, ol { 
+    list-style: none; 
+}
+
+li{ 
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;    
+}
+
+td {
+   border: 1px solid; 
+}
+
+.print-tool {
+    /* overflow: auto; */
+    /* margin: 10px; */
+}
+
+.toolbar {
+    margin: 10px 0;
+}
+
+.selectTdInput {
+    width: 100%;
+}
+
+.selectTdInput input {
+    width: 100%;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.coordinate-bar-td {
+    background-color: #f0f0f0 !important;
+    cursor: pointer;
+}
+
+.coordinate-bar-td-horizontal {}
+
+.coordinate-bar-td-vertical {}
+
+.selectTd {
+    background-color: #fff;
+    border: 1px solid #0663f7;
+}
